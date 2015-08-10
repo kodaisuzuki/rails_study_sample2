@@ -200,3 +200,5 @@ ja:
       item:
         name: 名前
         age: 年齢
+        sex: 性別
+        memo: メモ
