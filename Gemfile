@@ -33,17 +33,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-<<<<<<< HEAD
   gem 'rspec-rails', '~> 3.0.0'
   #テストのメソッドを利用できるようにする。
   gem 'capybara', '2.2.0'
   #編集用のデータを作成する
   gem 'factory_girl_rails', '4.2.1'
-=======
-   gem 'capybara', '2.2.0'
-   gem 'rspec-rails', '~> 3.0.0'
-   gem 'factory_girl_rails', '4.2.1'
->>>>>>> dbc6b02f9d4df829d193a7f2c3fa5a6445cb4fa7
+  
+  gem 'capybara', '2.2.0'
+  gem 'rspec-rails', '~> 3.0.0'
+  gem 'factory_girl_rails', '4.2.1'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 

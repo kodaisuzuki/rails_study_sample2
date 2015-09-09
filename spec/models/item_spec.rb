@@ -1,10 +1,6 @@
 require 'rails_helper'
 
 describe Item do
-<<<<<<< HEAD
-=======
-
->>>>>>> dbc6b02f9d4df829d193a7f2c3fa5a6445cb4fa7
     #前処理
     before do
         @item = Item.new(name: "Example", age: "20", sex: "0", memo:"testメモ") 
