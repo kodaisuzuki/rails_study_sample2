@@ -8,11 +8,11 @@ RSpec.describe "Items", :type => :request do
       before {visit items_path }
   
       it "メモが正しく表示されているか" do
-        expect(page).to have_content('メモ')
+         should have_content('メモ')
       end
-      
+
       it "タイトルが正しく表示されているか" do
-        expect(page).to have_title("Sample1")
+        should have_title("Sample1")
       end
   end
   
