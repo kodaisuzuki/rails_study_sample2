@@ -34,7 +34,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
-  
+  #テストのメソッドを利用できるようにする。
+  gem 'capybara', '2.2.0'
+  #編集用のデータを作成する
+  gem 'factory_girl_rails', '4.2.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
